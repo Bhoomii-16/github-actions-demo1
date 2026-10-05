@@ -1,0 +1,11 @@
+git init
+git config --global user.name "Bhoomii-16"
+git config --global user.email "24107078@apsit.edu.in"
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/github-actions-demo1.git
+git push -u origin main
+mkdir -p .github/workflows
+touch .github/workflows/deploy.yml
+nano .github/workflows/deploy.yml
